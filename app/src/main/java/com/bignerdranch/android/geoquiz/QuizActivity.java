@@ -2,6 +2,7 @@ package com.bignerdranch.android.geoquiz;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -74,6 +75,6 @@ public class QuizActivity extends AppCompatActivity {
             else{
                 massageResId = R.string.incorrect_toast;
             }
-            Toast.makeText(this,massageResId,Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,massageResId,Toast.LENGTH_SHORT);
         }
 }
